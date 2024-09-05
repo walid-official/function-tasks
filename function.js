@@ -154,10 +154,29 @@
 //task-7
 //------
 
-function evenOdd(str){
-    let result = str.length % 2 === 0;
-    return result;
+// function evenOdd(str){
+//     let result = str.length % 2 === 0;
+//     return result;
+// }
+
+// let str = "programming hero";
+// console.log(evenOdd(str));
+
+
+//task-8
+//------
+
+function sumOfEvenNumbers(num){
+  let arr = []
+  let sum = 0;
+   for(let numbers of num){
+    if(numbers % 2 === 0){
+        sum += numbers
+    }
+   }
+   return sum;
 }
 
-let str = "programming hero";
-console.log(evenOdd(str));
+let numbers = [2,3,4,5,6];
+let resultNumbers = numbers;
+console.log(sumOfEvenNumbers(resultNumbers));
