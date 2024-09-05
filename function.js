@@ -122,3 +122,42 @@
 // let binary = "001101010101"
 // let binNumber = binary;
 // count_zero(binNumber)
+
+
+//task-5
+//------
+
+// function square(number){
+//     return number * number;
+// }
+// let sqrNumber = Number(prompt('Enter Your Number :'));
+// console.log(square(sqrNumber));
+
+
+//task-6
+//------
+
+// function checkEO(str){
+//     if(str.length % 2 === 0){
+//         let even = "This is even";
+//         return even;
+//     }else{
+//         let odd = "Not Even but Odd";
+//         return odd;
+//     }
+// }
+
+// let str = "programming hero";
+// console.log(checkEO(str));
+
+
+//task-7
+//------
+
+function evenOdd(str){
+    let result = str.length % 2 === 0;
+    return result;
+}
+
+let str = "programming hero";
+console.log(evenOdd(str));
