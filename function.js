@@ -112,16 +112,34 @@
 // function count_zero(binary){
 //     let text = ""
 //     for(let count of binary){
+//       if(count.includes("0")){                          
+//         text += count
+//       }
+//     //   if(count === "0"){
+//     //     text += count
+//     //   }
+//     }
+//     console.log(text);
+//     return text.length;
+// }
+// let binary = "001101010101"
+// let binNumber = binary;
+// console.log(count_zero(binNumber)); 
+
+
+// function count_zero(binary){
+//     let text = ""
+//     for(let count of binary){
 //       if(count === "0"){
 //         text += count
 //       }
 //     }
 //     console.log(text);
-//     console.log(text.length);
+//     return text.length;
 // }
 // let binary = "001101010101"
 // let binNumber = binary;
-// count_zero(binNumber)
+// console.log(count_zero(binNumber)); 
 
 
 //task-5
@@ -166,17 +184,21 @@
 //task-8
 //------
 
-function sumOfEvenNumbers(num){
-  let arr = []
-  let sum = 0;
-   for(let numbers of num){
-    if(numbers % 2 === 0){
-        sum += numbers
-    }
-   }
-   return sum;
-}
+// function sumOfEvenNumbers(num){
+//   let arr = []
+//   let sum = 0;
+//    for(let numbers of num){
+//     if(numbers % 2 === 0){
+//         sum += numbers
+//     }
+//    }
+//    return sum;
+// }
 
-let numbers = [2,3,4,5,6];
-let resultNumbers = numbers;
-console.log(sumOfEvenNumbers(resultNumbers));
+// let numbers = [2,3,4,5,6];
+// let resultNumbers = numbers;
+// console.log(sumOfEvenNumbers(resultNumbers));
+
+function getMenu() {
+    console.log("Burger, Pizza, Pasta");
+   }
